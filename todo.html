@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>TO DO LIST</title>
+        <link rel="stylesheet" href="todo.css">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <script src="todo.js" defer></script>
+    </head>
+    <body>
+        <div class="backgroundWrapper">
+        <img src="bg-desktop-dark-todo.jpg" alt="desktopDark" class="backgroundImage">
+    </div>
+        <div class="titleIcon">
+        <h1>TODO </h1>
+        <img src="icon-sun.png" alt="theme" id="theme">
+    </div>
+        <div class="all-input-container">
+        <div class="enter">
+            <input type="checkbox" id="circle-btn" class="circle-btn">
+            <label for="circle-btn" class="circle-label"></label>
+            <input type="text" id="enterInput" placeholder="Create a new todo...">
+            
+        </div>
+        <div class="container">
+            <ul id="todoList">
+            </ul>
+        </div>
+    </div>
+    </body>
+</html>
